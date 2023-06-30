@@ -25,6 +25,6 @@ for i in range(800):
     sess.append(ses)
 
 traces["sessions"] = sess
-f = open("./traces1024.json", 'w')
+f = open("./traces1.json", 'w')
 f.write(json.dumps(traces))
 f.close()
